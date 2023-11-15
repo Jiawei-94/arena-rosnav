@@ -15,6 +15,7 @@ class Constants:
 class WaypointPluginName(Enum):
     PASSTHROUGH = "passthrough"
     SPINNY = "spinny"
+    ROV = "rvo_ros"
 
 
 InputMsg = pedsim_msgs.msg.WaypointPluginDataframe
